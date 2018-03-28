@@ -1,5 +1,15 @@
-button{
-	
+h1{
+	text-align: center;
+	font-family: 'Kalam', cursive;
+	font-size: 75px;
+}
+.buttons{
+	text-align: center;
 	height: 25px;
 	width: 150px;
 }
+
+#submit{
+	text-align: center;
+}
+
