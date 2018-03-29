@@ -1,13 +1,18 @@
-//alert("up and running");
-let form = document.getElementById("blogForm");
+const form = document.getElementById("blogForm");
 
-form.addEventListener("Submit", function(e)
-	{
-		e.preventDefault()
-		const inputValue = document.getElementById
-		("blogInput").value;
-		
-	} );
+form.addEventListener("submit", function() {
+		event.preventDefault();
 
-let newElement = document.create("p");
-newElement.inner.HTML = input;
+		const inputValue = document.getElementById("inputbox").value;
+
+		let newElement = document.createElement("p");
+
+		newElement.innerHTML = inputValue;
+
+		document.body.appendChild(newElement);
+
+		document.getElementById("inputbox").value="";
+
+});
+
+
